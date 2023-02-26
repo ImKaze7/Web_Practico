@@ -1,0 +1,18 @@
+HTML CSS
+Son estructuras
+HTML Esqueleto
+CSS Piel
+JavaScript Logica
+
+Electron
+Unir en una paquete un elemento de escritorio
+
+node = paquetes de JavaScript
+
+npm = node package Manager
+
+npm init -y //Inicia el poryecto
+npm install electron
+
+//cuando ya hay un diccionario solo se installa el mismo
+// npm install
