@@ -1,0 +1,6 @@
+header h1{
+    color: red;
+    background: green;
+    /*Para alinear el título con el logo*/
+    margin-top: 7.5px;
+}
