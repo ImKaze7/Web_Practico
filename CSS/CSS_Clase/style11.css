@@ -1,0 +1,10 @@
+[href$="pdf"]{
+    display: block;
+    background:
+      url(https://fresnostate.edu/webresources/images/128x128/128x128-pdf.png) left / contain no-repeat;
+    padding-left: 1.5em;
+  }
+  
+  [href*='sea']{
+    color: green;
+  }
