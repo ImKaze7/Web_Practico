@@ -1,0 +1,9 @@
+a[title]{
+    color: red;
+    font-size: 2em;
+  }
+  
+  [class^="menu-"]{
+    background: yellow;
+  }
+  
