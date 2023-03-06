@@ -1,0 +1,12 @@
+.titulo, 
+.parrafo{
+  text-decoration: underline;
+}
+
+.titulo{
+  color: red;
+}
+
+.parrafo{
+  color: blue;
+}
