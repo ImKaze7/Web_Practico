@@ -1,0 +1,18 @@
+a{
+    display: inline-block;
+    background: red;
+    color: #fff;
+    line-height: 2.5;
+    padding: 0 lem;
+    text-decoration: none;
+  }
+  
+  body:hover{
+    background: darkred;
+  }
+  
+  a:active{
+    transform: scale(0.9);
+  }
+  
+  
