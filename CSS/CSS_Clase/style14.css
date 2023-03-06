@@ -1,0 +1,8 @@
+p{
+    background: yellow;
+    padding: .5em;
+  }
+  
+  p:empty{
+    background: red; 
+  }
