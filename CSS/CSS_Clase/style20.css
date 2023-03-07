@@ -1,8 +1,7 @@
 *,
-*:before,
-*:after{
-  box-sizing: border-box;
-}
+*:before
+
+
 
 .caja{
   width: 276px;
