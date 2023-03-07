@@ -1,0 +1,11 @@
+h1{
+    background: yellow;
+    
+  }
+  a{
+    display: inline-block; 
+    background: red;
+    color: #fff;
+    padding: .5em 1em;
+    text-decoration: none;
+  }
