@@ -1,0 +1,9 @@
+.elemento{
+    background: yellow;
+    padding: 50px;
+    margin-bottom: 60px;
+  }
+  
+  .elemento:nth-child(2){
+    margin-top: 100px;
+  }
