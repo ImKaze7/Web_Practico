@@ -1,0 +1,17 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+.title::before{
+  content: "";
+  display: inline-block;
+  width:200px;
+  height:100px;
+  background: red;
+}
+
+.title::after{
+  content: url(https://cdn4.iconfinder.com/data/icons/CS5/128/ACP_PDF%202_file_document.png);
+}
