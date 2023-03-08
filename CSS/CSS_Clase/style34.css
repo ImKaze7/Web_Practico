@@ -1,0 +1,10 @@
+h1{
+    background: yellow;
+    display: inline-block;
+    color: yellow;  
+  }
+  p{
+    background: pink;
+    margin-top: -50px;
+    color: pink
+  }
