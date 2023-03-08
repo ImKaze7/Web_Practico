@@ -1,0 +1,18 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+.caja{
+  width: 400px;
+  height: 400px;
+  border: 20px dotted red;
+  padding: 40px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png), url(https://www.ngenespanol.com/wp-content/uploads/2022/09/tigre-de-bengala-el-gran-felino-de-las-selvas-de-la-india.jpg),  yellow;
+  background-repeat: no-repeat;
+  background-position: bottom right, center;
+  background-size: 20%, cover;
+  background-origin: content-box;
+  background-clip: content-box;
+}
