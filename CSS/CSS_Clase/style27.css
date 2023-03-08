@@ -1,0 +1,9 @@
+.gear{
+    width: 200px;
+    height: 200px;
+    background: gray;
+    border-radius: 50%;
+    border: 20px dotted gray;
+    background-clip: padding-box;
+    
+  }
