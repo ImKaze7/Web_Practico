@@ -1,0 +1,30 @@
+.poster{
+    width: 250px;
+    position: relative;
+  }
+  
+  .poster img {
+    width: 100%;
+  }
+  
+  .caption{  
+    background: rgba(0,0,0,.8);
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    top: -100%;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+  }
+  
+  .poster:hover .caption{
+    top: 0;
+  }
+    
