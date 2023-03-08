@@ -1,0 +1,33 @@
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+
+img{
+    float: right;
+    
+}
+
+article{    
+  width: 80%;
+  margin: 1em auto;
+  border: 1px solid red;
+  overflow: hidden;
+}
+
+article::after{
+  content: "";
+  display: block;
+  width: 400px;
+  height: 400px;
+  background: green;
+  margin-lefT: -100px;
+
+}
+
+pre{
+  width: 400px;
+  border: 2px solid grey;
+}
