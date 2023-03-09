@@ -1,0 +1,39 @@
+.menu,
+.menu ul{
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.menu{
+  background: #333;
+  display: table;
+}
+
+.menu  > li{
+  float: left;
+  
+}
+
+.menu a{
+  color: #eee;
+  text-decoration: none;
+  display: block;
+  padding: .5em 1.5em;
+}
+
+.menu li > ul{
+  position: absolute;
+  background: green;
+  width: 170px;
+  display: none;
+}
+
+.menu li:hover > ul{
+  display: block;
+}
+  
+.menu ul ul {
+  background: red;
+ 
+}
