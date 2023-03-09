@@ -1,0 +1,15 @@
+body{
+    padding-top: 50px;
+    padding-bottom: 200em;
+  }
+  .main-header{
+    background: hsl(210,70%,50%);
+    color: #eee;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
