@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+  /*flex-direction: column-reverse;*/
+    width: 500px;
+    height: 500px;
+    background: hsl(240, 100%, 90%);
+/*     flex-wrap: wrap; */
+  /* flex-direction: column;  */
+/*   align-items: center; */
+/*   align-items: center;
+  justify-content: left */
+  }
+  
+  .item{
+    flex-basis: 200px;
+   height:30px; 
+    background: yellow;
+    text-align: center;
+        
+  }
+
+.item:nth-child(even){
+  background: green;
+  color: #fff;
+}
+.item:nth-child(3){
+  flex-shrink: 4;
+}
