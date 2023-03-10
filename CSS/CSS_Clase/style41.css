@@ -1,0 +1,30 @@
+.capa{
+    width: 200px;
+    height: 200px;
+   /* opacity: .7; */
+    font-size: 3em;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+    position: relative;
+  }
+  
+  .uno{
+    background: hsl(120,70%,50%);
+    z-index: 2;
+  }
+  
+  .dos{
+    background: hsl(200,70%,50%);
+    top: -100px;
+    left: 100px; 
+    z-index: 3;
+  }
+  
+  .tres{
+    background: hsl(300,70%,50%);
+    top: -200px;
+    left: 200px;
+    z-index: 2;
+  
+  }
