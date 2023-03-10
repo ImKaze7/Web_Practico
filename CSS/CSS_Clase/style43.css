@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    padding-bottom: 150em;
+  }
+  
+  nav{
+    width: 100%;
+    padding: 1em;
+    background: hsl(190,80%,50%);
+    color: #fff;
+    position: sticky;
+    top: 20px;
+  }
