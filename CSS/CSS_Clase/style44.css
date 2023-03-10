@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+  width: 500px;
+    height: 500px;
+  background: hsl(240, 100%, 90%);
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+  }
+  
+  .item{
+    align-self: flex-start;
+    order: -1; 
+  }
