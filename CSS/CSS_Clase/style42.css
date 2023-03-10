@@ -1,0 +1,27 @@
+.capa{
+    width: 200px;
+    height: 200px;
+   /* opacity: .7; */
+    font-size: 3em;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+    position: relative;
+  }
+  
+  .uno{
+    background: hsl(120,70%,50%);
+  }
+  
+  .uno::before{
+    content: '';
+    display: block;
+    width: 150px;
+    height:150px;
+    background: hsl(30, 80%, 50%);
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    z-index: -2;
+  
+  }
