@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+ 
+  /* flex-direction: column-reverse;*/
+  width: 500px;
+    height: 500px;
+  background: hsl(240, 100%, 90%);
+    
+  }
+  
+  
