@@ -1,0 +1,17 @@
+.capa{
+    width: 200px;
+    height: 200px;
+    opacity: .7;
+  }
+  
+  .uno{
+    background: hsl(120,70%,50%);
+  }
+  
+  .dos{
+    background: hsl(200,70%,50%);
+  }
+  
+  .tres{
+    background: hsl(300,70%,50%);
+  }
