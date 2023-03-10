@@ -1,0 +1,31 @@
+.main-nav{
+    position: fixed;
+    background: #ddd;
+    width: 25%;
+    top: 0 ;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .main-menu{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: -0;
+    padding-left: 0 ;
+  }
+  
+  .menu-item{
+    border-bottom: 1px solid #bbb;
+  }
+  
+  .menu-link{
+    display: block;
+    line-height: 3;
+    text-decoration: none;
+    color: #222;
+    padding-left: 1em;
+  }
+  
+  .main{
+    margin-left: 27%;
+  }
