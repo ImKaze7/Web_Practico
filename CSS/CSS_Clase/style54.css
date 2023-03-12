@@ -1,0 +1,11 @@
+table{
+    margin: 2em auto;
+    border: 1px solid red;
+    padding: 2em;
+  }
+  tr{
+    border: 1px solid green; 
+  }
+  td{
+    border: 1px solid blue;
+  }
