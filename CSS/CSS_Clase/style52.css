@@ -1,0 +1,46 @@
+.menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    background: #333;
+    
+  }
+  ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  li{
+    position: relative;
+  }
+  
+  li > ul{
+    display: none;
+    position: absolute;
+    background: #333;
+  }
+  
+  li ul ul {
+    left: 100%;
+    top:0 ;
+  }
+  
+  li:hover >ul{
+    display: block;
+  }
+  
+  .menu__item{
+    flex: auto;
+    
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+    display: block; 
+    text-align: center;
+    padding: .5em;
+  }
