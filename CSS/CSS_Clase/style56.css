@@ -1,0 +1,35 @@
+:root{
+    --size: 200px;
+}
+
+.container{
+    width: var(--size);
+    height: var(--size);
+    border: 1px solid black;
+    margin: auto;
+    
+}
+
+.box{
+    background: linear-gradient(
+      transparent 99px,
+      red 99px,
+      red 100px,
+      transparent 100px
+    ),linear-gradient(
+      to left,
+      transparent 99px,
+      blue 99px,
+      red 100px,
+      transparent 100px
+    );
+    border: 1px solid red;
+    width: var(--size);
+    height: var(--size);
+    line-height: var(--size);
+    opacity: .8;
+    font-size: 2em;
+    color: #fff;
+    transform: translateX(200px) scaleY(2) rotate( 50deg) ;
+ /*margin-left: 100px; */
+}
