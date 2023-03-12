@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  table{
+    margin: 2em auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 75%;
+    min-width: 600px;
+  }
+  tr:nth-child(even){
+      background: #eee;
+  }
+  td{
+    border: 1px solid #ccc;
+    padding: .3em;
+  }
+  
+  th{
+    background: teal;
+    color: #fff;
+    padding: .5em;
+    border-right: 1px solid rgba(255, 255, 255, .5);
+  }
+  
+  th:last-child{
+    border-right: none;
+  }
+  
+  th:first-child{
+    border-left: 1px solid teal;
+  }
