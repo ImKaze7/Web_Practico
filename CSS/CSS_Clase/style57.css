@@ -1,0 +1,40 @@
+:root{
+    --size: 200px;
+}
+
+.container{
+    width: var(--size);
+    height: var(--size);
+    border: 1px solid black;
+    margin: auto;
+    position: absolute;
+    
+}
+
+.box{
+    background: linear-gradient(
+      transparent 99px,
+      red 99px,
+      red 100px,
+      transparent 100px
+    ),linear-gradient(
+      to left,
+      transparent 99px,
+      blue 99px,
+      blue 100px,
+      transparent 100px
+    );
+    background: red;
+    border: 1px solid red;
+    width: 40px;
+    height: 50px;
+    opacity: .8;
+    font-size: 2em;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*transform: translate(-50%,-50%);*/
+    transform: skew(10deg);
+    
+}
