@@ -1,0 +1,15 @@
+body{
+    perspective: 100px;
+  }
+  
+  .card{
+    width: 300px;
+    height: 400px;
+    background: red;
+    margin: 1em auto;
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+    line-height: 400px;
+    transform: rotateY(80deg);
+  }
