@@ -1,0 +1,17 @@
+h1{
+    background: red;
+    transition: background 3s;  
+  }
+  h1::before{
+    content: "Hola mundo";
+    color: white;
+    transition: color 3s 3s;
+  }
+  
+  h1:hover{
+    background: green;
+  }
+  
+  h1:hover::before{
+    color: yellow;
+  }
