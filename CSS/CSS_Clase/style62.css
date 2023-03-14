@@ -1,0 +1,8 @@
+.point{
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius:50%;  
+    transform: rotate(20deg);
+    transform-origin:100px 100px;
+  }
