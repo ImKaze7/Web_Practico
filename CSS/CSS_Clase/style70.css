@@ -1,0 +1,39 @@
+.sphere{
+  perspective: 2000px;
+  position: relative;
+  margin:auto;
+  width: 200px;
+  height: 200px;
+}
+
+.circle{
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  border-radius: 50%;
+  position: absolute;
+}
+.circle:nth-child(2){
+  transform: rotateY(40deg);
+}
+.circle:nth-child(3){
+  transform: rotateY(80deg);
+}
+.circle:nth-child(4){
+  transform: rotateY(120deg);
+}
+.circle:nth-child(5){
+  transform: rotateY(160deg);
+}
+.circle:nth-child(6){
+  transform: rotateY(200deg);
+}
+.circle:nth-child(7){
+  transform: rotateY(240deg);
+}
+.circle:nth-child(8){
+  transform: rotateY(280deg);
+}
+.circle:nth-child(9){
+  transform: rotateY(320deg);
+}
