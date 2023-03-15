@@ -1,0 +1,35 @@
+.card-container{
+    perspective: 1000px;
+  }
+  
+  .card{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    transition: all .3s;
+  }
+  .card-container:hover .card{
+    transform: rotateY(180deg);
+  }
+  .card-container:hover .back{
+    backface-visibility: visible;
+  }
+  
+  .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    color: #fff;
+    font-size: 2em;
+  }
+  .back{
+    background: green;
+  
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+  }
+  
