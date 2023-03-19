@@ -1,6 +1,19 @@
-$color: red;
+//variables
+//paleta de color
+$primary-color: hsl(205,80,60);
+$secondary-color: hsl(0,10,10);
+//tamaño de fuentes
+$m: 16px;
+$xl: $m * 1.5;
+$l: $m * 1.25;
+$s: $m * 0.8;
+$xs: $m * 0.7;
 
-body{
-    background: red;
+//variables de layout
+$gutter: 16px;
+$max-width: 1200px;
 
-}
+@import "base/normalize";
+@import "layout/layout";
+@import "theme/header";
+@import "modules/modules";
